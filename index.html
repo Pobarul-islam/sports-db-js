@@ -5,9 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!-- bootstrap cdn link  -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <!-- css link  -->
+    <link rel="stylesheet" href="css/style.css">
+
 </head>
 <body>
-    <h1>Hello Sports DB</h1>
+ 
+   <div class="container w-100 m-auto">
+       <div class="row w-100 m-auto">
+           <div class="col-md-6 w-100 m-auto text-center"><h1>Left side</h1>
+        <div class="input-group">
+	<input id="search-box" type="search" class="form-control" placeholder="Search...">  
+  	<button id="search-btn" type="button" onclick="allPlayer()" class="btn btn-primary">
+    <i class="fa fa-search"></i> Search
+  	</button>
+</div></div>
+           <div class="col-md-6 w-100 m-auto text-center"><h1>Right side</h1></div>
+       </div>
+   </div>
+
+    </div>
 
     <script src="js/app.js"></script>
 </body>
